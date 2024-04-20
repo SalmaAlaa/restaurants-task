@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  color: rgb(120, 117, 117);
+}
+p {
+  margin: 10px;
+  text-align: center;
+}
+
+.search-container {
+  width: 100%;
+  background-image: url("../images/resturant_background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container input[type="text"],
+.search-container button {
+  margin: px; /* Adjust the spacing between input and button */
+}
+.search {
+  text-align: center;
+}
+button,
+input {
+  padding: 10px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(114, 157, 114);
+  transition-duration: 0.4s;
+  border: 2px solid rgb(114, 157, 114);
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #405c41; /* Green */
+  color: white;
+}
+input {
+  border: 2px solid rgb(114, 157, 114);
+  border-radius: 10px;
+}
+html body {
+  font-family: Tahoma;
+}

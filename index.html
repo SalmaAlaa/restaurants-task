@@ -2,11 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/index.css" />
-    <title>Restrurants Task</title>
+    <title>Restaurant Task</title>
   </head>
   <body>
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/index.js" defer></script>
+    <div class="search-container">
+      <form id="search-postcode">
+        <h2>Find Restaurants Near You</h2>
+        <p class="first">Please enter the Postcode</p>
+        <div class="search">
+          <input type="text" id="postcode-input" placeholder="Postcode" />
+          <button type="submit" class="button">Search</button>
+        </div>
+      </form>
+      <div class="restaurants"></div>
+    </div>
   </body>
 </html>
