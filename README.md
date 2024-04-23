@@ -1,6 +1,8 @@
 # Restaurants Search Task
 
-A web application to search for restaurants by postcode.
+A web application to search for restaurants by postcode. The app is hosted here https://salmaalaa.github.io/restaurants-task/
+
+**NOTE**: Please disable CORS in your browser so the app works as expected, this is because the PI server does not include the necessary CORS headers to allow requests from my domain
 
 ## Features
 
@@ -15,7 +17,7 @@ A web application to search for restaurants by postcode.
 - CSS
 - JavaScript
 
-## Get the app up and running
+## Get the app up and running in development
 
 1. Clone the repository: git clone https://github.com/SalmaAlaa/restaurants-task.git
 2. Go to the project directory
@@ -25,4 +27,5 @@ A web application to search for restaurants by postcode.
    npm install -g http-server
    http-server -p 8000
    ```
-4. Open `http://localhost:8000 on web browser.
+4. Disbale CORS in your browser; As API server does not include the necessary CORS headers to allow requests from localhost.
+5. Open `http://localhost:8000 on web browser.
