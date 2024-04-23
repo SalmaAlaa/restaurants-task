@@ -30,5 +30,18 @@ A web application to search for restaurants by postcode. The app is hosted here 
      http-server -p 8000
      ```
    - Or if you using Vscode you can use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
-4. Disbale CORS in your browser; As API server does not include the necessary CORS headers to allow requests from localhost.
+4. Disable CORS in your browser; As API server does not include the necessary CORS headers to allow requests from localhost.
 5. Open `http://localhost:8000 on web browser.
+
+## Running tests
+
+I'm using Jest to write unit tests; Here are the steps needed to run tests:
+
+1. Run `npm install` to install the dependencies defined in `package.json` file
+2. Run `npm run test:unit` to run th tests defined under `../tests/` directory.
+
+## Future Improvements
+
+- Write unit tests for modules that manipulate DOM elements using Jsdom
+- Write integration tests.
+- Add more HTML accessibility features
