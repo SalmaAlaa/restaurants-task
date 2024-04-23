@@ -86,6 +86,7 @@ p {
 .restaurant-details {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .restaurant-details .icon {
@@ -113,6 +114,10 @@ p {
   border-radius: 5px;
   margin-right: 0.5em;
   margin-bottom: 0.2em;
+}
+
+.restaurant-details .restaurant-cuisines {
+  display: flex;
 }
 
 .restaurant-name {
