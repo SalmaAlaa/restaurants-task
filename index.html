@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./assets/css/index.css" />
     <title>Restaurant Task</title>
   </head>
+
   <body>
-    <script src="./assets/js/index.js" defer></script>
+    <script type="module" src="./assets/js/index.js" defer></script>
     <div class="search-container">
       <form id="search-postcode">
         <h2>Find Restaurants Near You</h2>
@@ -17,23 +18,13 @@
           <input type="text" id="postcode-input" placeholder="Postcode" />
           <button type="submit" class="button">Search</button>
         </div>
+    </div>
+    </form>
+    <main class="container">
+      <div class="error-container"></div>
+      <div class="restaurants-container">
       </div>
-      </form>
-      <main class="container">
-        <div class="restaurants">
-        <!--
-        <article class="restaurant">
-          <img class="restaurant__img" src="" />
-          <div class="restaurant__data">
-            <h3 class="restaurant__name">RESTAURANT</h3>
-            <h4 class="restaurant__region"></h4>
-            <p class="restaurant__row"><span>📍</span>ADDRESS/p>
-            <p class="restaurant__row"><span>🍽️</span>CUISINES</p>
-            <p class="restaurant__row"><span>⭐️</span>RATINGS</p>
-          </div>
-        </article>
-        -->
-        </main>
+    </main>
     </div>
   </body>
 </html>
